@@ -15,6 +15,7 @@
 		C5865BE81F723C0100DC45EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5865BE61F723C0100DC45EB /* LaunchScreen.storyboard */; };
 		C5865BF31F723C0100DC45EB /* AutoScrollDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5865BF21F723C0100DC45EB /* AutoScrollDemoTests.m */; };
 		C5865BFE1F723C0100DC45EB /* AutoScrollDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5865BFD1F723C0100DC45EB /* AutoScrollDemoUITests.m */; };
+		C5865C0E1F723C5700DC45EB /* YZYHorizListView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5865C0D1F723C5700DC45EB /* YZYHorizListView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C5865BF91F723C0100DC45EB /* AutoScrollDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoScrollDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5865BFD1F723C0100DC45EB /* AutoScrollDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoScrollDemoUITests.m; sourceTree = "<group>"; };
 		C5865BFF1F723C0100DC45EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5865C0C1F723C5700DC45EB /* YZYHorizListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZYHorizListView.h; sourceTree = "<group>"; };
+		C5865C0D1F723C5700DC45EB /* YZYHorizListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZYHorizListView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		C5865BD71F723C0100DC45EB /* AutoScrollDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C5865C0B1F723C4300DC45EB /* YZYHorizListView */,
 				C5865BDB1F723C0100DC45EB /* AppDelegate.h */,
 				C5865BDC1F723C0100DC45EB /* AppDelegate.m */,
 				C5865BDE1F723C0100DC45EB /* ViewController.h */,
@@ -138,6 +142,15 @@
 				C5865BFF1F723C0100DC45EB /* Info.plist */,
 			);
 			path = AutoScrollDemoUITests;
+			sourceTree = "<group>";
+		};
+		C5865C0B1F723C4300DC45EB /* YZYHorizListView */ = {
+			isa = PBXGroup;
+			children = (
+				C5865C0C1F723C5700DC45EB /* YZYHorizListView.h */,
+				C5865C0D1F723C5700DC45EB /* YZYHorizListView.m */,
+			);
+			path = YZYHorizListView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5865C0E1F723C5700DC45EB /* YZYHorizListView.m in Sources */,
 				C5865BE01F723C0100DC45EB /* ViewController.m in Sources */,
 				C5865BDD1F723C0100DC45EB /* AppDelegate.m in Sources */,
 				C5865BDA1F723C0100DC45EB /* main.m in Sources */,
